@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Noughts And Crosses</string>
+    <string name="play_again">Play Again</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="start">start</string>
+    <string name="name">Name</string>
+    <string name="made_with_by_dev_adnani">Made With ❤ By Dev Adnani</string>
+    <string name="player_1_x">Player 1 = X</string>
+    <string name="player_2_o">Player 2 = O</string>
+    <string name="enter_name_of_sec_player">Enter Name Of Sec User</string>
+    <string name="enter_name_of_first_player">Enter Name Of First User</string>
+    <string name="logo">Logo</string>
+    <string name="test">Test</string>
+    <string name="twoimg">twoImg</string>
+    <string name="oneimg">oneImg</string>
+    <string name="main_menu">Main Menu</string>
+</resources>

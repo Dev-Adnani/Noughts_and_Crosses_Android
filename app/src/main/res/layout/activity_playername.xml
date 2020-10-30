@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoadingActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView10"
+        android:layout_width="533dp"
+        android:layout_height="324dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/playerNameOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/simple"
+        android:gravity="center"
+        android:hint="@string/enter_name_of_first_player"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/playerNameTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/simple"
+        android:gravity="center"
+        android:hint="@string/enter_name_of_sec_player"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerNameOne" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#00000000"
+        android:fontFamily="@font/simple"
+        android:paddingStart="20dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="5dp"
+        android:text="@string/start"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/playerNoteO"
+        app:layout_constraintTop_toBottomOf="@+id/playerNameTwo" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:fontFamily="@font/simple"
+        android:text="@string/made_with_by_dev_adnani"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startGame"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/playerNoteX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/simple"
+        android:text="@string/player_1_x"
+        android:textColor="#CC0B0B0B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startGame" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/playerNoteO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/simple"
+        android:text="@string/player_2_o"
+        android:textColor="#CC0B0B0B"
+        app:layout_constraintStart_toStartOf="@+id/playerNoteX"
+        app:layout_constraintTop_toBottomOf="@+id/playerNoteX" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
